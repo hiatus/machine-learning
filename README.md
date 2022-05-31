@@ -5,6 +5,10 @@ Machine learning algorithms.
 
 Algorithms
 ----------
+* Supervised
+	+ Classification \
+	**KNN**
+
 * Unsupervised
 	+ Clustering \
 	**K-Means**
