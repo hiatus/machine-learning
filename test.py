@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # Initialize 200 random datapoints
     datapoints = [
         DataPoint(
-            randrange(Config.MAX_Y), randrange(Config.MAX_Y)
+            randrange(Config.MAX_X), randrange(Config.MAX_Y)
         ) for _ in range(Config.LEN_DATA)
     ]
 
