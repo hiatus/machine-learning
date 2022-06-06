@@ -58,6 +58,8 @@ if __name__ == '__main__':
         y = []
         color = Config.KNN_CATEGORY_COLOR[knn_category]
 
+        print(f'Category {knn_category} color: {color}')
+
         if knn_datapoint.category == knn_category:
             pyplot.scatter(
                 knn_datapoint.x, knn_datapoint.y, c = color, s = 200, marker = '+'
@@ -69,7 +71,7 @@ if __name__ == '__main__':
 
         pyplot.scatter(x, y, c = color, marker = 'o')
 
-    print(f'KNN category: {knn_datapoint.category}\n\n')
+    print(f'\nData point category: {knn_datapoint.category}\n\n')
     pyplot.show()
     
     ## K-Means
